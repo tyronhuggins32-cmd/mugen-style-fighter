@@ -1,0 +1,21 @@
+MUGEN.CFG CHANGE
+================
+
+Do not replace the full official data/mugen.cfg with this file.
+
+Open the existing file in your M.U.G.E.N installation:
+
+    data/mugen.cfg
+
+Inside the [Options] section, find the motif line and change only that line to:
+
+    motif = data/puredef/system.def
+
+Recommended display settings for this first motif:
+
+    GameWidth = 1280
+    GameHeight = 720
+
+The matching coordinate setting inside system.def is:
+
+    localcoord = 1280,720
