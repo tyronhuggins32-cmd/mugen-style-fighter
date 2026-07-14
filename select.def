@@ -1,0 +1,27 @@
+;============================================================
+; NEW MUGEN - ROSTER AND STAGE LIST
+; Official Elecbyte M.U.G.E.N 1.0
+; Place at: data/puredef/select.def
+;
+; No custom characters are included yet.
+;============================================================
+
+[Characters]
+; Add each finished character here later.
+;
+; Character-folder example:
+; MyCharacter
+;
+; Character plus preferred stage example:
+; MyCharacter, stages/MyStage.def, order=1
+
+[ExtraStages]
+; Add completed stages here later.
+;
+; Example:
+; stages/MyStage.def
+
+[Options]
+; Arcade match order. Adjust these numbers after characters exist.
+arcade.maxmatches = 6,0,0,0,0,0,0,0,0,0
+team.maxmatches = 4,0,0,0,0,0,0,0,0,0
